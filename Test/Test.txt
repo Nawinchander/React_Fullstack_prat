@@ -9,6 +9,23 @@ Playwright → Advanced E2E (FAANG level)
 
 ////// npm install --save-dev jest @testing-library/react @testing-library/jest-dom
 
+TYPES OF TESTING (FAANG EXPECTATION)
+
+You should know these clearly in interviews:
+
+🟢 1. Unit Testing
+Test small pieces (functions/components)
+Example: Header, UserList
+
+🔵 2. Integration Testing
+Test multiple layers together
+Example: React → API → DB
+
+🟡 3. End-to-End Testing
+Simulate real user behavior
+Use Cypress
+
+
 
 
 
