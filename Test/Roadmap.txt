@@ -1,0 +1,71 @@
+“In my full-stack app, I implemented unit testing using Jest, component testing with React Testing Library, API testing using Supertest, and end-to-end testing with Cypress. For scalability, I would add load testing using k6 and introduce caching and rate limiting.”
+
+
+
+FAANG-LEVEL LEARNING PATH (IMPORTANT 🚀)
+
+This is what actually gets you hired.
+
+🥇 LEVEL 1: FOUNDATION (2–3 weeks)
+
+✔ React basics (hooks, props)
+✔ Node + Express APIs
+✔ MySQL + Mongo basics
+
+👉 Build:
+
+Your current project ✅
+🥈 LEVEL 2: TESTING + CLEAN CODE
+
+✔ Unit testing (Jest)
+✔ Component testing
+✔ API testing
+
+👉 Improve:
+Add tests for every component
+Mock APIs properly
+🥉 LEVEL 3: ADVANCED FRONTEND
+
+✔ Replace prop drilling → Context API
+✔ State management (Redux / Zustand)
+✔ Performance optimization
+
+🏅 LEVEL 4: BACKEND ADVANCED
+
+✔ Authentication (JWT)
+✔ Rate limiting
+✔ Middleware chaining
+✔ Error handling
+
+LEVEL 5: SYSTEM DESIGN (FAANG CORE)
+
+You must explain:
+
+👉 “How would you scale this app?”
+
+Answer like this:
+
+Client → Load Balancer → API Gateway
+      → Microservices (User, Task)
+      → DB (MySQL + Mongo)
+      → Cache (Redis)
+
+LEVEL 6: TESTING IN SYSTEM DESIGN
+
+FAANG expects:
+
+Load testing APIs
+Failover testing
+Chaos testing
+
+Example question:
+
+“How do you test rate limiter?”
+
+Answer:
+
+Simulate 1000 requests/sec
+Check rejection logic
+Verify latency
+
+

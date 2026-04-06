@@ -26,6 +26,23 @@ Simulate real user behavior
 Use Cypress
 
 
+cy.visit("http://localhost:5173");
+cy.contains("Users");
+
+4. API Testing
+Validate backend endpoints
+Tools: Postman, Supertest
+
+⚫ 5. Performance Testing
+Load testing APIs
+Tools:
+k6
+Apache JMeter
+
+
+🟣 6. Security Testing
+SQL Injection
+Auth bypass
 
 
 
