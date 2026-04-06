@@ -1,0 +1,9 @@
+TESTING YOUR FULL-STACK APP (Frontend + Backend)
+🔵 Frontend (React) Testing
+✅ Tools you should use in VS Code
+Jest → Test runner
+React Testing Library → Component testing
+Cypress → E2E testing (browser)
+Playwright → Advanced E2E (FAANG level)
+
+
