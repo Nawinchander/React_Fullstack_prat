@@ -7,3 +7,8 @@ Cypress → E2E testing (browser)
 Playwright → Advanced E2E (FAANG level)
 
 
+////// npm install --save-dev jest @testing-library/react @testing-library/jest-dom
+
+
+
+
