@@ -25,3 +25,19 @@ function Login() {
 export default Login;
 
 
+
+
+
+// Where is Token Stored?
+// Option A (Your current setup)
+// localStorage.setItem("token", token);
+
+// ✔ Simple
+// Not fully secure (XSS risk)
+
+// Option B (FAANG-level)
+// HTTP-only cookies (backend-controlled)
+
+// ✔ More secure
+// ✔ Used in production systems
+
