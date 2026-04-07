@@ -39,6 +39,41 @@ You say:
 Unit tests → Jest
 Integration tests → API + DB
 E2E → Cypress
+Load testing → k6
+
+
+Bottlenecks
+DB queries → optimize indexes
+Auth → use caching
+API → rate limiting
+
+
+
+//// 
+
+How do you scale JWT auth?”
+
+Use refresh tokens
+Store blacklist in Redis
+
+👉 “How do you test rate limiter?”
+
+Send 1000 req/sec using k6
+
+👉 “How to handle failure?”
+
+Retry logic
+Circuit breaker
+
+
+FINAL RESULT (You Now Have)
+
+✅ Full-stack app
+✅ JWT auth
+✅ Testing (frontend + backend)
+✅ Docker setup
+✅ CI/CD pipeline
+✅ System design answers
 
 
 
