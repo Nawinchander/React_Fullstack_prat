@@ -1,0 +1,44 @@
+“Design a scalable full-stack task management system”
+
+
+Requirements
+Users can login
+Create/read tasks
+Fast response
+Scalable
+
+
+Client (React)
+    ↓
+Load Balancer
+    ↓
+API Gateway
+    ↓
+Auth Service (JWT)
+User Service (MySQL)
+Task Service (MongoDB)
+    ↓
+Cache (Redis)
+
+
+Database Choice
+
+MySQL → structured users
+MongoDB → flexible tasks
+
+
+Scaling Strategy
+
+Horizontal scaling (multiple servers)
+DB indexing
+Caching (Redis)
+
+Testing Strategy (IMPORTANT 🔥)
+
+You say:
+Unit tests → Jest
+Integration tests → API + DB
+E2E → Cypress
+
+
+
