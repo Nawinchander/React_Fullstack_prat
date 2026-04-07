@@ -1,0 +1,4 @@
+/// auth
+
+/// User → Login → JWT Token → Stored in Frontend → Sent in Headers → Protected APIs
+
