@@ -8,5 +8,7 @@ router.get("/", (req, res) => {
     res.json(result);
   });
 });
+api.get("/users"); // token automatically added
 
 module.exports = router;
+

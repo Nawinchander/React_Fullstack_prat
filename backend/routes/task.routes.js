@@ -13,4 +13,6 @@ router.post("/", async (req, res) => {
   res.json(task);
 });
 
+router.get("/secure", authMiddleware, handler);
+
 module.exports = router;
